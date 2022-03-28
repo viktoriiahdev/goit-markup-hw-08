@@ -1,0 +1,21 @@
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+
+  &--flex-col {
+    // display: flex;
+    flex-direction: column;
+  }
+
+  @media screen and (min-width: $mobile) {
+    width: $mobile;
+  }
+
+  @media screen and (min-width: $tablet) {
+    width: $tablet;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: $desktop;
+  }
+}

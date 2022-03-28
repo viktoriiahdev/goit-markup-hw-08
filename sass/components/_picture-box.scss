@@ -1,0 +1,26 @@
+.picture-box {
+  position: relative;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.picture-box__title {
+  position: absolute;
+
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  padding: 27px 0;
+
+  background: rgba(48, 49, 59, 0.8);
+  color: var(--main-text-color-light);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+}

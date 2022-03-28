@@ -1,0 +1,44 @@
+.feature {
+  flex: 1;
+  margin-bottom: 30px;
+
+  @media screen and (min-width: $tablet) and (max-width: 1199px) {
+    margin: 15px;
+    @include card-width(2, 15px);
+  }
+
+  @media screen and (min-width: $desktop) {
+    margin: 0;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+}
+
+.feature__icon-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background-color: var(--secondary-backgound-color-light);
+}
+
+.feature__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--main-text-color-dark);
+
+  margin-bottom: 10px;
+
+  text-align: center;
+}
+
+.feature__descr {
+  color: var(--secondary-text-color-dark);
+}

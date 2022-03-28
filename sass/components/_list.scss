@@ -1,0 +1,44 @@
+.list {
+  @extend %list;
+
+  @media screen and (min-width: $tablet) {
+    &--flex {
+      // display: flex;
+      // justify-content: space-between;
+    }
+  }
+
+  &--flex {
+    &.clients {
+      text-align: center;
+
+      @media screen and (min-width: $mobile) {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -15px;
+      }
+    }
+
+    @media screen and (min-width: $tablet) {
+      display: flex;
+      flex-wrap: wrap;
+      margin: -15px;
+    }
+
+    @media screen and (min-width: $desktop) {
+      margin: 0;
+    }
+  }
+
+  &--cards {
+    flex-wrap: wrap;
+
+    @media screen and (min-width: $tablet) {
+      margin: -15px;
+    }
+    @media screen and (min-width: $desktop) {
+      margin-top: -30px;
+      margin-left: -30px;
+    }
+  }
+}
