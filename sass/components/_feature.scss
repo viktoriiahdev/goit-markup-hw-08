@@ -1,6 +1,10 @@
 .feature {
   flex: 1;
-  margin-bottom: 30px;
+  @media screen and (max-width: 767px) {
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
 
   @media screen and (min-width: $tablet) and (max-width: 1199px) {
     margin: 15px;
