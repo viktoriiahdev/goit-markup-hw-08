@@ -1327,7 +1327,7 @@ input[type='checkbox'] {
 }
 
 .team-member__image {
-  width: 450px;
+  width: 100%;
 }
 
 .team-member__name {
@@ -1756,9 +1756,7 @@ input[type='checkbox'] {
 }
 
 .card__img {
-  display: block;
   width: 100%;
-  height: auto;
 }
 
 .card__title {
