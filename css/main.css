@@ -755,16 +755,16 @@ input[type='checkbox'] {
             justify-content: space-between;
     background-color: var(--main-background-color);
     padding: 30px 25px;
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
     -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .page-header__menu-container--is-open {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
