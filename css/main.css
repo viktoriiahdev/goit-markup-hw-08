@@ -693,7 +693,6 @@ input[type='checkbox'] {
       -ms-flex-align: center;
           align-items: center;
   padding: 0 15px;
-  overflow: scroll;
 }
 
 @media screen and (max-width: 767px) {
